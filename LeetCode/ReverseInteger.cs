@@ -23,7 +23,8 @@ namespace LeetCode
             resultString = string.Join(string.Empty, resultString.Reverse());
 
             // HERE THE PROBLEM
-            int result = int.Parse(hasMinus ? "-" + resultString : resultString);
+            int result = 0;
+            var parset = int.TryParse(hasMinus ? "-" + resultString : resultString, out result);
 
             if (result > int.MaxValue && result < int.MinValue) return 0;
 

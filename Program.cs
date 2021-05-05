@@ -20,7 +20,7 @@ namespace LeetCode
             // var result4 = reverseInteger.Solution(120);
             // var result5 = reverseInteger.Solution(901000);
             // var result6 = reverseInteger.Solution(-123);
-            // var result7 = reverseInteger.Solution(1534236469);
+            var result7 = reverseInteger.Solution(1534236469);
 
             /* RANDOM TESTS */
             // var dayOfTheYear = new DayOfTheYear1154();
